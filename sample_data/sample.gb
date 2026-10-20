@@ -1,0 +1,24 @@
+
+LOCUS       SAMPLE001                18 bp    DNA     linear   SYN 01-JAN-2025
+DEFINITION  Example DNA sequence for testing gene annotation.
+ACCESSION   SAMPLE001
+VERSION     SAMPLE001.1
+KEYWORDS    .
+SOURCE      synthetic construct
+  ORGANISM  synthetic construct
+            other sequences; artificial sequences.
+FEATURES             Location/Qualifiers
+     source          1..18
+                     /organism="synthetic construct"
+                     /mol_type="genomic DNA"
+     gene            1..18
+                     /gene="testA"
+                     /note="Example test gene"
+     CDS             1..18
+                     /gene="testA"
+                     /product="Example protein"
+                     /codon_start=1
+                     /translation="MKKFG"
+ORIGIN
+        1 atgaaaagct tttggataa
+//
